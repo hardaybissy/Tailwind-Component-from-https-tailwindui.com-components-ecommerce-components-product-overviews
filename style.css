@@ -1,0 +1,979 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+    
+}
+
+body{
+    padding: 2rem;
+    background-color: white;
+}
+
+.component-description-div{
+    width: fit-content;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2rem;
+    padding: 5rem 2rem;
+    border: 0.5px solid #d9d9d9;
+    border-radius: 1.5rem;
+}
+
+.top-images-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    display: none;
+}
+.left-images-div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+}
+.top-bag1-img-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    border-radius: 6.13px;
+   
+}
+
+.top-bag1-img-div img{
+    width: 100%;
+    height: auto;
+}
+
+.top-bag2-img-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    border-radius: 6.13px;
+    
+   
+}
+
+.top-bag2-img-div img{
+    width: 100%;
+    height: auto;
+}
+
+.top-bag3-img-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    border-radius: 6.13px;
+   
+   
+}
+
+
+.top-bag3-img-div img{
+    width: 100%;
+    height: auto;
+}
+
+.top-bag4-img-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    border-radius: 6.13px;
+    
+   
+}
+
+.top-bag4-img-div img{
+    width: 100%;
+    height: auto;
+}
+.bottom-bags-images-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+
+}
+
+.image1-with-onlyFrame-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;        
+}
+.image1-with-onlyFrame-div img{
+    width: 100%;
+    height: auto;    
+}
+.image1-with-frame-div{
+    width: 100%;
+    height: auto;
+    border: 2px solid #735CFF;
+    border-radius: 6.13px;
+    cursor: pointer;
+    
+}
+
+.image1-with-frame-div img{
+    width: 100%;
+    height: auto;
+  
+}
+.image2-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.image2-blue-container-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #735CFF;
+    border-radius: 6.13px;
+    
+}
+
+.image2-blue-container-div img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.image2-div img{
+    width: 100%;
+    height: auto;
+}
+
+.image3-blue-container-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #735CFF;
+    border-radius: 6.13px;    
+}
+.image3-blue-container-div img{
+    width: 100%;
+    height: auto;
+}
+.image3-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.image3-div img{
+    width: 100%;
+    height: auto;
+}
+
+.image4-blue-container-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #735CFF;
+    border-radius: 6.13px; 
+}
+
+.image4-blue-container-div img{
+    width: 100%;
+    height: auto;
+}
+
+.image4-div{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.image4-div img{
+    width: 100%;
+    height: auto;
+}
+
+.right-description-div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.title-div{
+    width: fit-content;
+    height: auto;
+}
+.title-div h1{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    word-spacing: 0.1rem;
+}
+
+.amount-div{
+    width: fit-content;
+    height: auto;
+}
+
+.amount-div p{
+    font-size: 1.6rem;
+}
+.stars-div{
+    width: fit-content;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+.description-paragraph-text-div{
+    width: fit-content;
+    height: auto;
+}
+
+.description-paragraph-text-div p{
+    font-size: 0.9rem;
+    color: #636363;
+    font-weight: 200;
+    line-height: 1.3rem;
+}
+.color-ellipses-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+.color-div{
+    width: fit-content;
+    height: auto;
+}
+.color-div p{
+    font-size: 0.8rem;
+    color: #636363;
+    font-weight: 200;
+}
+.ellipses-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.3rem;
+    cursor: pointer;
+}
+.first-ellipse-div{
+    width: 2.48rem;
+    height: 2.48rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reveal-first-ellipse-div{
+    width: 2.48rem;
+    height: 2.48rem;
+    border: 3px solid #636363;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-ellipse-div{
+    width: 2.48rem;
+    height: 2.48rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reveal-second-ellipse-div{
+    width: 2.48rem;
+    height: 2.48rem;
+    border: 3px solid #636363;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-ellipse-div{
+    width: 2.48rem;
+    height: 2.48rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reveal-third-ellipse-div{
+    width: 2.48rem;
+    height: 2.48rem;
+    border: 3px solid #636363;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-emoji-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+.blueButton-div{
+    width: 18.5rem;
+    height: 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    width: 18rem;
+    height: 2.8rem;
+    outline: none;
+    border: none;
+    background-color: #4C2FFB;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    
+    
+}
+button:hover{
+    background-color: #2F0EFD;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.emoji-div{
+    width: 2.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-div:hover{
+    background-color: #f7f7f7;
+}
+
+.fa-regular{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #525151;
+}
+.list-card-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+.features-title-icon-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid #EFEEEE;
+    padding: 1.3rem 0;
+    cursor: pointer;
+}
+
+.care-title-icon-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid #EFEEEE;
+    padding: 1.3rem 0;
+    cursor: pointer;
+}
+
+.shipping-title-icon-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid #EFEEEE;
+    padding: 1.3rem 0;
+    cursor: pointer;
+}
+
+.returns-title-icon-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid #EFEEEE;
+    padding: 1.3rem 0;
+    cursor: pointer;
+}
+.features-div{
+    width: fit-content;
+    height: auto;
+}
+
+
+
+.features-div p{
+    font-size: 0.8rem;
+}
+.plus-icon-div{
+    width: fit-content;
+    height: auto;
+    
+}
+
+.fa-plus{
+    font-size: 1rem;
+    color: #aaaaaa;
+   
+}
+
+.feature-collapsible-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    border-top: 1.5px solid #EFEEEE;
+    padding: 1.5rem 0;
+    display: none;
+    
+}
+
+.feature-collapsible-reveal-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    border-top: 1.5px solid #EFEEEE;
+    padding: 1.5rem 0;
+    
+}
+.care-collapsible-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    /* border-top: 1.5px solid #EFEEEE; */
+    padding: 1.5rem 0;
+    
+}
+.shipping-collapsible-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    /* border-top: 1.5px solid #EFEEEE; */
+    padding: 1.5rem 0;
+    
+}
+.returns-collapsible-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    /* border-top: 1.5px solid #EFEEEE; */
+    padding: 1.5rem 0;
+   
+}
+
+.blue-features-div{
+    width: fit-content;
+    height: auto;
+    display: none;
+}
+
+.blue-features{
+    font-size: 0.8rem;
+    color: #735EFA;
+    display: none;
+    
+}
+
+.minus-icon-div{
+    width: fit-content;
+    height: auto;
+    display: none;
+}
+
+
+.fa-minus{
+    font-size: 1rem;
+    color: #735EFA;
+    font-weight: 100;
+    
+}
+
+.feature-listed-paragraph-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+    padding-left: 0.3rem;
+    display: none;
+}
+.feature-listed-paragraph-reveal-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+    padding-left: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.feature-first-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+
+
+.feature-second-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+
+.feature-third-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+
+.feature-fourth-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+
+.feature-fifth-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+
+.feature-sixth-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+
+.feature-seventh-listed-paragraph-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    column-gap: 0.7rem;
+}
+.dot-icon-div{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.fa-circle{
+    font-size: 0.3rem;
+    color: #d7d7d7
+}
+
+.feature-first-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-first-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+
+.feature-second-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-second-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+.feature-third-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-third-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+.feature-fourth-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-fourth-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+.feature-fifth-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-fifth-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+.feature-sixth-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-sixth-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+.feature-seventh-paragraph-div{
+    width: fit-content;
+    height: auto;
+}
+.feature-seventh-paragraph-div p{
+    font-size: 0.8rem;
+    color: #636363;
+}
+
+
+
+@media (max-width:992px) {
+    .component-description-div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        justify-content: center;
+        padding: 5rem 4rem;
+        align-items: center;
+    }
+    .top-images-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    
+    .left-images-div{
+        display: none;
+    }
+   
+    .right-description-div{
+        width: 34.375rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1rem;
+    }
+    
+    
+    .title-div{
+        width: fit-content;
+        height: auto;
+    }
+    .title-div h1{
+        font-size: 1.8rem;
+        font-weight: bolder;
+        word-spacing: 0.1rem;
+    }
+    
+    .amount-div{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .amount-div p{
+        font-size: 1.6rem;
+    }
+    .stars-div{
+        width: fit-content;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+    .description-paragraph-text-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+    }
+    
+    .description-paragraph-text-div p{
+        font-size: 0.9rem;
+        color: #636363;
+        font-weight: 200;
+    }
+    .color-ellipses-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 0.3rem;
+        margin-bottom: 0.7rem;
+    }
+    .color-div{
+        width: fit-content;
+        height: auto;
+    }
+    .color-div p{
+        font-size: 0.8rem;
+        color: #636363;
+        font-weight: 200;
+    }
+    .ellipses-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.5rem;
+        cursor: pointer;
+    }
+    
+    
+    
+    .button-emoji-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .blueButton-div{
+        width: 18.5rem;
+        height: 3.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    button{
+        width: 18rem;
+        height: 2.8rem;
+        outline: none;
+        border: none;
+        background-color: #4C2FFB;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        
+        
+    }
+    button:hover{
+        background-color: #2F0EFD;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .emoji-div{
+        width: 2.8rem;
+        height: 2.8rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .emoji-div:hover{
+        background-color: #f7f7f7;
+    }
+    
+    .fa-regular{
+        font-size: 1.2rem;
+        font-weight: 200;
+        color: #525151;
+    }
+    .list-card-div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+        
+    }
+    .title-icon-div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1.5px solid #f7f7f7;
+        padding: 1.5rem 0;
+        cursor: pointer;
+    }
+    .features-div{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .features-div p{
+        font-size: 0.8rem;
+    }
+    .plus-icon-div{
+        width: fit-content;
+        height: auto;
+        
+    }
+    
+    .fa-plus{
+        font-size: 1rem;
+        color: #aaaaaa
+    }
+
+    
+}
+
+@media (max-width:768px){
+    .component-description-div{
+        width: 100%;
+        height: auto;
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        justify-content: center;
+    }
+    .bottom-bags-images-div{
+        display: none;
+    
+    }
+
+    .right-description-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1rem;
+    }
+
+    .button-emoji-div{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.5rem;
+    }
+   .blueButton-div{
+        width: 15.5rem;
+        height: 3.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    button{
+        width: 15rem;
+        height: 2.8rem;
+        outline: none;
+        border: none;
+        background-color: #4C2FFB;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        
+        
+    }
+
+   
+
+    .top-images-div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
